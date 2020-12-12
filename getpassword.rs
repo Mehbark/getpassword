@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::Read;
 /*
  * getpassword: a simple password file parser thing
- * Remember to encrypt you password file to keep it safe, and then temporarily
+ * Remember to encrypt your password file to keep it safe, and then temporarily
  * unencrypt it for use with this program.
  * Format for the password file is 'name, password, name, password, ' etc.
  * The space is signficant.
