@@ -12,7 +12,7 @@ use std::io::Read;
  */
 fn main() {
   //Set VthisV to the path to your unencrpyted password file
-  let password_path = "/home/mehbark/main/misc/passwords";
+  let password_path = "";
   let mut file = File::open(password_path).expect("Unable to open");
   let mut contents = String::new();
   let mut input = String::new();
